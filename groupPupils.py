@@ -67,21 +67,25 @@ labels5 = kmeans5.labels_
 plt.scatter(data['Height'], data['Weight'], c=labels2)
 plt.scatter(centers2[:, 0], centers2[:, 1], c='red')
 plt.savefig('kmeans2.png')
+plt.show()
 plt.close()
 
 plt.scatter(data['Height'], data['Weight'], c=labels3)
 plt.scatter(centers3[:, 0], centers3[:, 1], c='red')
 plt.savefig('kmeans3.png')
+plt.show()
 plt.close()
 
 plt.scatter(data['Height'], data['Weight'], c=labels4)
 plt.scatter(centers4[:, 0], centers4[:, 1], c='red')
 plt.savefig('kmeans4.png')
+plt.show()
 plt.close()
 
 plt.scatter(data['Height'], data['Weight'], c=labels5)
 plt.scatter(centers5[:, 0], centers5[:, 1], c='red')
 plt.savefig('kmeans5.png')
+plt.show()
 plt.close()
 
 # Print on screen results for 2 clusters
