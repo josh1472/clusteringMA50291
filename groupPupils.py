@@ -154,4 +154,4 @@ print('Number of pupils in each group:', len(data[labels5 == 0]),
 #data[labels5 == 1].to_csv('cluster2.csv')
 #data[labels5 == 2].to_csv('cluster3.csv')
 #data[labels5 == 3].to_csv('cluster4.csv')
-#data[labels5 == 4].to_csv('cluster5.csv')     
+#data[labels5 == 4].to_csv('cluster5.csv') 
