@@ -1,31 +1,23 @@
+# Pupil Clustering Analysis
 
-### Overview
-This package provides various clustering algorithms to analyze and group data points based on their similarities. It includes implementations of popular clustering techniques such as K-Means, Hierarchical Clustering, and DBSCAN.
+This Python project reads a CSV file containing height and weight data for pupils, calculates basic statistics, performs K-means clustering, and visualizes the clusters. The results are saved as PNG plots and exported to separate CSV files for each cluster.
 
-### Installation
-To install the package, use the following command:
-```bash
-pip install clusteringMA50291
-```
+## Module uses
 
-### Usage
-Here is a basic example of how to use the package:
+1. **Statistics**:
+   - Calculate and display the mean, median, variance, and standard deviation for height and weight.
 
-```python
-from clusteringMA50291 import KMeans
+2. **K-Means Clustering**:
+   - Perform clustering with 2, 3, 4, and 5 clusters.
+   - Output the cluster centroids and the number of pupils in each cluster.
 
-# Sample data
-data = [[1, 2], [1, 4], [1, 0], [10, 2], [10, 4], [10, 0]]
+3. **Plotting**:
+   - Generate scatter plots of the clusters, saving each plot as a PNG file.
 
-# Create a KMeans instance
-kmeans = KMeans(n_clusters=2)
+4. **Export Clusters**:
+   - Export the data points in each cluster into separate CSV files.
 
-# Fit the model
-kmeans.fit(data)
+---
 
-# Predict the clusters
-labels = kmeans.predict(data)
-print(labels)
-```
 
 
